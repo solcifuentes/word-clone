@@ -11,8 +11,8 @@ export function checkGuess(guess, answer) {
     return null;
   }
   //I added a .value to access the value property of guess
-  const guessChars = guess.value.toUpperCase().split("");
-  // const guessChars = guess.toUpperCase().split("");
+  // const guessChars = guess.value.toUpperCase().split("");
+  const guessChars = guess.toUpperCase().split("");
   const answerChars = answer.split("");
 
   const result = [];
